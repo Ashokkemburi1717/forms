@@ -1,0 +1,41 @@
+body,
+happy {
+  background-color: #c9a0a1;
+}
+td,
+table {
+  border: 2px solid whitesmoke;
+}
+button {
+  background-color: white;
+  color: rgb(76, 9, 9);
+
+  margin-top: 30px;
+  margin-left: 480px;
+}
+h2 {
+  color: rgb(76, 9, 9);
+  background-color: white;
+  margin-top: 50px;
+  margin-right: 170px;
+  text-align: center;
+  border-radius: 5px;
+}
+#ho {
+  background-color: white;
+  color: rgb(76, 9, 9);
+}
+td {
+  color: white;
+}
+#ha {
+  color: #c9a0a1;
+  padding-left: 150px;
+}
+.happy {
+  margin-left: 250px;
+  margin-right: 200px;
+}
+button:hover {
+  background-color: pink;
+}

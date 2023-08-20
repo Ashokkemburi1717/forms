@@ -1,0 +1,29 @@
+td,
+table {
+  border: 3px solid whitesmoke;
+}
+body {
+  background-color: #75b14e;
+}
+td {
+  background-color: #6698ff;
+}
+h2 {
+  color: rgb(216, 18, 18);
+  text-align: center;
+  margin-right: 395px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+.elite {
+  margin-left: 300px;
+}
+button {
+  margin-top: 30px;
+  margin-left: 300px;
+  font-size: 15px;
+  font-weight: 500px;
+}
+button:hover {
+  background-color: red;
+}
