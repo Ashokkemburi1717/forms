@@ -1,0 +1,32 @@
+td,
+table {
+  border: 2px solid white;
+}
+body {
+  background-color: #75b14e;
+}
+button {
+  background-color: white;
+  color: red;
+  margin-top: 10px;
+  margin-left: 300px;
+}
+.head {
+  color: rgb(220, 18, 18);
+}
+#he {
+  background-color: whitesmoke;
+  margin-top: 20px;
+  margin-right: 465px;
+  text-align: center;
+  border-radius: 5px;
+}
+td {
+  background-color: #e1c3a4;
+}
+.platinum {
+  margin-left: 300px;
+}
+button:hover {
+  background-color: green;
+}

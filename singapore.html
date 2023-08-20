@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Singapore Tourism</title>
+    <link rel="stylesheet" href="./singapore.css" />
+  </head>
+  <body>
+    <form action="">
+      <h2>Singapore Tourism</h2>
+      <table>
+        <tr>
+          <td><label for="Name">Name</label></td>
+          <td><input type="text" id="Name" placeholder="Enter your Name" /></td>
+        </tr>
+        <tr>
+          <td><label for="phno">Phone no</label></td>
+          <td>
+            <input type="tel" id="phno" placeholder="Enter your phone no" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">Email id</label></td>
+          <td>
+            <input type="email" id="email" placeholder="Enter tour email" />
+          </td>
+        </tr>
+        <tr>
+          <td><label for="noofpersons">Number of persons</label></td>
+          <td>
+            <input type="number" id="noofpersons" />
+          </td>
+        </tr>
+        <tr>
+          <td>prefer stay</td>
+          <td>
+            <input
+              type="radio"
+              id="yes"
+              name="stay"
+              onchange="okeyfunction()"
+            />
+            <label for="yes">Yes</label>
+            <input type="radio" id="No" name="stay" onchange="okeyfunction()" />
+            <label for="No">No</label>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="noofdays">No of Days Stay</label></td>
+          <td><input type="number" id="noofdays" /></td>
+        </tr>
+        <tr>
+          <td>Places you would to visit</td>
+          <td>
+            <input
+              type="checkbox"
+              id="pilgrimage"
+              name="visitPlace"
+              value="350"
+            />
+            <label for="pilgrimage">Places of pilgrimage</label> <br />
+            <input
+              type="checkbox"
+              id="heritage"
+              name="visitPlace"
+              value="400"
+            />
+            <label for="heritage">places of heritage</label> <br />
+            <input type="checkbox" id="hills" name="visitPlace" value="800" />
+            <label for="hills">Hills</label> <br />
+            <input type="checkbox" id="falls" name="visitPlace" value="1200" />
+            <label for="falls">Falls</label> <br />
+            <input type="checkbox" id="beach" name="visitPlace" value="300" />
+            <label for="beach">Beach</label> <br />
+            <input
+              type="checkbox"
+              id="adventures"
+              name="visitPlace"
+              value="4500"
+            />
+            <label for="adventures">Places of Adventures</label>
+          </td>
+        </tr>
+      </table>
+      <button onclick="calculateCost()">Calculate cost</button>
+      <p style="color: black" id="message"></p>
+      <p style="color: black" id="discountmessage"></p>
+    </form>
+    <script src="./script3.js"></script>
+  </body>
+</html>
