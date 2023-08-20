@@ -1,0 +1,30 @@
+body {
+  color: white;
+}
+.packers,
+td {
+  border: 2px solid white;
+  background-color: #558da3;
+}
+.row2 {
+  color: rgb(212, 25, 25);
+}
+h2 {
+  color: rgb(168, 21, 21);
+  background-color: white;
+  margin-top: 20px;
+  text-align: center;
+  margin-right: 20px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.packers {
+  display: inline-block;
+}
+button {
+  font-weight: 700px;
+  font-size: 16px;
+}
+button:hover {
+  background-color: green;
+}
